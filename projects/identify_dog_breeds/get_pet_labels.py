@@ -40,9 +40,13 @@ def get_pet_labels(image_dir):
     results_dic = dict()
 
     for filename in listdir(image_dir):
+        if filename.startswith("."):
+            # skip dotfiles
+            continue
+
         if filename not in results_dic:
             # Create pet label if the filename does not exist in the dictionary
-            filename_word_list = filename.lower().split("_")
+            filename_word_list = filename.lower().split(".")[0].split("_")
             pet_label = ""
             for word in filename_word_list:
                 if word.isalpha():

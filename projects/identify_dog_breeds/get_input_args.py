@@ -39,7 +39,7 @@ def get_input_args():
     
     # Create command line arguments
     parser.add_argument('--dir', type = str, default = 'pet_images/', help = 'path to the folder of pet images')
-    parser.add_argument('--arch', type = str, default = 'resnet', help = 'CNN model architecture to use')
+    parser.add_argument('--arch', type = str, default = 'vgg', help = 'CNN model architecture to use')
     parser.add_argument('--dogfile', type = str, default = 'dognames.txt', help = 'file that contains the list of valid dog names')
 
     return parser.parse_args()
