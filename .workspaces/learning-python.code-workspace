@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "../"
+    },
+    {
+      "name": "Project: Identify dog breeds",
+      "path": "../projects/identify_dog_breeds"
+    }
+  ],
+  "settings": {}
+}
