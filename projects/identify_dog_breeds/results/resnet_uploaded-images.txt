@@ -5,21 +5,21 @@ Command Line Arguments:
 
 Pet Image Label Dictionary has 4 key-value pairs.
 Below are 4 of them:
- 1 key:                 Samoyed_02.jpg  label:                    samoyed
+ 1 key:             Coffee_mug_01.jpeg  label:                 coffee mug
  2 key:                  Donkey_01.jpg  label:                     donkey
  3 key:                 Samoyed_01.jpg  label:                    samoyed
- 4 key:             Coffee_mug_01.jpeg  label:                 coffee mug
+ 4 key:                 Samoyed_02.jpg  label:                    samoyed
 
      MATCH:
 
-                Samoyed_02.jpg: 
-Real:                    samoyed   Classifier:              samoyed, samoyede
+            Coffee_mug_01.jpeg: 
+Real:                 coffee mug   Classifier:                     coffee mug
 
                 Samoyed_01.jpg: 
 Real:                    samoyed   Classifier:              samoyed, samoyede
 
-            Coffee_mug_01.jpeg: 
-Real:                 coffee mug   Classifier:                     coffee mug
+                Samoyed_02.jpg: 
+Real:                    samoyed   Classifier:              samoyed, samoyede
 
  NOT A MATCH:
 
@@ -30,17 +30,17 @@ Real:                     donkey   Classifier:                          llama
 
      MATCH:
 
-                Samoyed_02.jpg: 
-Real:                    samoyed   Classifier:              samoyed, samoyede  
-PetLabelDog: 1  ClassLabelDog: 1
+            Coffee_mug_01.jpeg: 
+Real:                 coffee mug   Classifier:                     coffee mug  
+PetLabelDog: 0  ClassLabelDog: 0
 
                 Samoyed_01.jpg: 
 Real:                    samoyed   Classifier:              samoyed, samoyede  
 PetLabelDog: 1  ClassLabelDog: 1
 
-            Coffee_mug_01.jpeg: 
-Real:                 coffee mug   Classifier:                     coffee mug  
-PetLabelDog: 0  ClassLabelDog: 0
+                Samoyed_02.jpg: 
+Real:                    samoyed   Classifier:              samoyed, samoyede  
+PetLabelDog: 1  ClassLabelDog: 1
 
  NOT A MATCH:
 
