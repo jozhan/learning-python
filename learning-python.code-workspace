@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "name": ".",
+      "path": "."
+    },
+    {
+      "name": "Scripts",
+      "path": "./scripts"
+    },
+    {
+      "name": "Project: Identify dog breeds",
+      "path": "./projects/identify_dog_breeds"
+    }
+  ],
+  "settings": {
+    "terminal.integrated.shell.windows": "C:/WINDOWS/System32/cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+      "/K",
+      "C:/ProgramData/Anaconda3/Scripts/activate.bat",
+      "C:/ProgramData/Anaconda3"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "~/.conda/envs/learning_python/python.exe"
+  }
+}
