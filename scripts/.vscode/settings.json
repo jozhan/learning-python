@@ -4,5 +4,8 @@
     "/K",
     "C:/ProgramData/Anaconda3/Scripts/activate.bat",
     "C:/ProgramData/Anaconda3"
-  ]
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.pythonPath": "~/.conda/envs/learning_python/python.exe"
 }
