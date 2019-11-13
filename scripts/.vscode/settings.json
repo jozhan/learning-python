@@ -8,5 +8,5 @@
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
   "python.pythonPath": "~/.conda/envs/py3/python.exe",
-  "python.terminal.executeInFileDir": false
+  "python.terminal.executeInFileDir": true
 }

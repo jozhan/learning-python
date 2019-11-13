@@ -8,5 +8,5 @@
   "python.linting.pylintEnabled": true,
   "python.linting.enabled": true,
   "python.pythonPath": "~/.conda/envs/learning_python/python.exe",
-  "python.terminal.executeInFileDir": false
+  "python.terminal.executeInFileDir": true
 }
